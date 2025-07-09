@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">>
+</head>
+
+<body>
+
+    <body>
+        <main class="contaner-fluid">
+            <div class="row">
+                <section class="col-md-4">sidebar</section>
+                <section class="col-md-8">email details</section>
+            </div>
+        </main>
+        <h1>JavaScript Object</h1>
+        <h2>Creating an Object</h2>
+
+        <img id="demo">
+        <br>
+        <h2 id="from"><b>from:</b></h2>
+
+        <script>
+            const mails = [{
+                pictire: "https://www.w3schools.com/w3images/avatar///3.png", from: "Borge Refsnes", subject: "Remember Me", body: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem provident ab, officia eius placeat rerum aspernatur labore ullam! Corporis voluptatum nemo ab delectus repellendus rerum sapiente, quisquam ea mollitia sit."
+            },
+            {
+                pictire: "https://www.w3schools.com/w3images/avatar5.png", from: "Jane Doe", subject: "None", body: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem provident ab, officia eius placeat rerum aspernatur labore ullam! Corporis voluptatum nemo ab delectus repellendus rerum sapiente, quisquam ea mollitia sit."
+            },
+            {
+                pictire: "https://www.w3schools.com/w3images/avatar2.png", from: "John Doe", subject: "None", body: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem provident ab, officia eius placeat rerum aspernatur labore ullam! Corporis voluptatum nemo ab delectus repellendus rerum sapiente, quisquam ea mollitia sit."
+            }];
+            function getMail(index) {
+
+            }
+            document.getElementById("demo").src = mails[0].pictire;
+            document.getElementById("from").innertext += mails[0].from;
+        </script>
+    </body>
+
+</html>
+</body>
+
+</html>
